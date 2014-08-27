@@ -1,6 +1,6 @@
 == Angular Rails Lottery
 
-This lottery application is a continuation from my previous lottery project with AngularJs. With the Rails framework, this project will be able to store lottery numbers in the database. 
+This lottery application is a continuation from my previous lottery project with AngularJS. With the Rails framework, this project will be able to store lottery numbers in the database. 
 
 == To Do
 

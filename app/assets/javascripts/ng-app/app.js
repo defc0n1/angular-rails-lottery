@@ -20,7 +20,8 @@ angular
         .state('dashboard', {
             abstract: true,
             url: '/dashboard',
-            templateUrl: 'dashboard/layout.html'
+            templateUrl: 'dashboard/layout.html',
+            controller: 'LotteryCtrl'
         })
             // the default route when someone hits dashboard
             .state('dashboard.one', {
