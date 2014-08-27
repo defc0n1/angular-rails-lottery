@@ -1,1 +1,33 @@
-<h2>Second Dashboard View</h2>
+<div class="jumbotron">
+  <h1>Super Lotto Plus</h1>
+  <p class="lead">Press the "Play to Win" button for your winning numbers!</p>
+  <p><a class="btn btn-lg btn-success" role="button" ng-click="generateList(47,27)">Play to Win</a></p>
+
+  <div ng-show="list" class="row" >
+    <div class="col-md-3 panel-body" >
+    </div>
+    <div class="col-md-6">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>#</th>
+            <th>#</th>
+            <th>#</th>
+            <th>#</th>
+            <th>Mega</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td ng-repeat="num in list"><span class="label label-primary">{{num}}</span></td> 
+            <td><span class="label label-info">{{mega}}</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-3 panel-body">      
+    </div>
+  </div>  
+
+</div>
