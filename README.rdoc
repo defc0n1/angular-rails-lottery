@@ -1,28 +1,21 @@
-== README
+== Angular Rails Lottery
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This lottery application is a continuation from my previous lottery project with AngularJs. With the Rails framework, this project will be able to store lottery numbers in the database. 
 
-Things you may want to cover:
+== To Do
 
-* Ruby version
+* Import work from Angular-lottery project
 
-* System dependencies
+* Include more lottery types.
 
-* Configuration
+* Create tests for correctness.
 
-* Database creation
+* Create separate views for each lottery types.
 
-* Database initialization
+* Provide alternative views for viewing lottery results.
 
-* How to run the test suite
+* Implement persitency to saved numbers.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Provide view for saved numbers.
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Enable user to enter their customized numbers.
