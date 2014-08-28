@@ -2,9 +2,17 @@
 
 This lottery application is a continuation from my previous lottery project with AngularJS. With the Rails framework, this project will be able to store lottery numbers in the database. 
 
-== To Do
+== Implemented Functionality
 
-* Import work from Angular-lottery project
+Generates Unique Numbers for Mega Millions and Super Lotto Plus lottery.
+
+Lottery Generation Logic is located in randomNumber factory.
+
+The behavior in the Lottery Generation Logic can accept parameters to alter the number range.
+
+The generated numbers are more presented as they are displayed as labels over plain text.
+
+== To Do
 
 * Include more lottery types.
 
